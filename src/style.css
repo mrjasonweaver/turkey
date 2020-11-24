@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  transition: all .15s ease-in-out;
+  transition-property: background, color, border, fill;
+}
+.theme-default {
+  --color-background: white;
+  --color-primary: black;
+}
+.theme-default.theme-dark {
+  --color-background: black;
+  --color-primary: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+}
