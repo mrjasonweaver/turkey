@@ -1,7 +1,7 @@
 const randoButton = document.querySelector('#rando-button');
 const feathers = document.querySelectorAll('#feathers path');
 const scene = document.querySelector('body');
-const themes = ['default', 'dark', 'colorful'];
+const themes = ['default', 'dark', 'colorful', 'pastel', 'greyscale'];
 
 let currentTheme = 'default';
 let isMoving = false;
