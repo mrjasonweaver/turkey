@@ -46,5 +46,3 @@ const doRandom = () => {
 }
 
 randoButton.addEventListener('click', doRandom);
-
-doRandom();

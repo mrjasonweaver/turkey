@@ -192,7 +192,6 @@ button:active {
   transform: scale(.99) translate(0, 1px);
 }
 
-#turkey {}
 #body {
   fill: var(--color-turkey-body);
 }
