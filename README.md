@@ -1,4 +1,4 @@
-# Tom the turkey
+# Turkey Randomizer
 SVG turkey animation
 
 See [demo](https://mrjasonweaver.github.io/turkey/)
