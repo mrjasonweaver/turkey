@@ -29,8 +29,7 @@ const staggerFeather = () => {
   } else {
     isMoving = false;
   }
-};
-
+}
 
 const doRandom = () => {
   const pullThemes = themes.filter(theme => theme !== currentTheme);
@@ -41,7 +40,7 @@ const doRandom = () => {
   feathers.forEach(f => f.classList.remove('animated'));
   isMoving = true;
   moveIndex = 0;
-  lastMove =  new Date();
+  lastMove = new Date();
   doFeatherAnimation();
 }
 

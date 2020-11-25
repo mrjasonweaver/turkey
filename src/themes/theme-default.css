@@ -1,0 +1,24 @@
+.theme-default {
+  --color-background: #F1F7ED;
+  --color-primary: black;
+  --color-turkey-feet: #FBD12D;
+  --color-turkey-feather-1: #FF6600;
+  --color-turkey-feather-2: #F26100;
+  --color-turkey-feather-3: #E55C00;
+  --color-turkey-feather-4: #D85700;
+  --color-turkey-feather-5: #CB5200;
+  --color-turkey-feather-6: #B14800;
+  --color-turkey-feather-7: #973D00;
+  --color-turkey-feather-8: #7D3300;
+  --color-turkey-body: #834D26;
+  --color-turkey-body-2: #663300;
+  --color-turkey-eye-inner: #E6E6E6;
+  --color-turkey-eye-pupil: #663300;
+  --color-turkey-beak: #EBC154;
+  --color-turkey-arms: #663B16;
+  --color-hat-brim: #532D14;
+  --color-hat-top: #663B16;
+  --color-hat-top-highlight: #9B5023;
+  --color-hat-belt: #492614;
+  --color-hat-buckle: #FFEE55;
+}

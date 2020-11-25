@@ -1,0 +1,24 @@
+.theme-pastel {
+  --color-background: #B8B3E6;
+  --color-primary: black;
+  --color-turkey-feet: #E2F89C;
+  --color-turkey-feather-1: #8B85C1;
+  --color-turkey-feather-2: #D4CDF4;
+  --color-turkey-feather-3: #A26793;
+  --color-turkey-feather-4: #C19AB7;
+  --color-turkey-feather-5: #8B85C1;
+  --color-turkey-feather-6: #D4CDF4;
+  --color-turkey-feather-7: #A26793;
+  --color-turkey-feather-8: #C19AB7;
+  --color-turkey-body: #815E5B;
+  --color-turkey-body-2: #685155;
+  --color-turkey-eye-inner: #E6E6E6;
+  --color-turkey-eye-pupil: #685155;
+  --color-turkey-beak: #E2F89C;
+  --color-turkey-arms: #685155;
+  --color-hat-brim: #211208;
+  --color-hat-top: #311B0C;
+  --color-hat-top-highlight: #422410;
+  --color-hat-belt: #492614;
+  --color-hat-buckle: #FFEE55;
+}

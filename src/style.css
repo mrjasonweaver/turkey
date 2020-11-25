@@ -1,128 +1,15 @@
 * {
   box-sizing: border-box;
-  transition: all .18s ease-in-out;
+  transition: all .2s ease-in-out;
   transition-property: background, color, border, fill, opacity;
 }
-.theme-default {
-  --color-background: #F1F7ED;
-  --color-primary: black;
-  --color-turkey-feet: #FBD12D;
-  --color-turkey-feather-1: #FF6600;
-  --color-turkey-feather-2: #F26100;
-  --color-turkey-feather-3: #E55C00;
-  --color-turkey-feather-4: #D85700;
-  --color-turkey-feather-5: #CB5200;
-  --color-turkey-feather-6: #B14800;
-  --color-turkey-feather-7: #973D00;
-  --color-turkey-feather-8: #7D3300;
-  --color-turkey-body: #834D26;
-  --color-turkey-body-2: #663300;
-  --color-turkey-eye-inner: #E6E6E6;
-  --color-turkey-eye-pupil: #663300;
-  --color-turkey-beak: #EBC154;
-  --color-turkey-arms: #663B16;
-  --color-hat-brim: #532D14;
-  --color-hat-top: #663B16;
-  --color-hat-top-highlight: #9B5023;
-  --color-hat-belt: #492614;
-  --color-hat-buckle: #FFEE55;
-}
-.theme-dark {
-  --color-background: #31163C;
-  --color-primary: white;
-  --color-turkey-feet: #FBD12D;
-  --color-turkey-feather-1: #D3C073;
-  --color-turkey-feather-2: #C9B254;
-  --color-turkey-feather-3: #9B8631;
-  --color-turkey-feather-4: #D3C073;
-  --color-turkey-feather-5: #C9B254;
-  --color-turkey-feather-6: #9B8631;
-  --color-turkey-feather-7: #C9B254;
-  --color-turkey-feather-8: #D3C073;
-  --color-turkey-body: #BE6F37;
-  --color-turkey-body-2: #8E5329;
-  --color-turkey-eye-inner: #E6E6E6;
-  --color-turkey-eye-pupil: #8E5329;
-  --color-turkey-beak: #EBC154;
-  --color-turkey-arms: #7E4A25;
-  --color-hat-brim: #211208;
-  --color-hat-top: #311B0C;
-  --color-hat-top-highlight: #422410;
-  --color-hat-belt: #492614;
-  --color-hat-buckle: #FFEE55;
-}
-.theme-colorful {
-  --color-background: #2C2C34;
-  --color-primary: #F9F9F9;
-  --color-turkey-feet: #FBD12D;
-  --color-turkey-feather-1: #B0E298;
-  --color-turkey-feather-2: #3D3B8E;
-  --color-turkey-feather-3: #E072A4;
-  --color-turkey-feather-4: #6883BA;
-  --color-turkey-feather-5: #B0E298;
-  --color-turkey-feather-6: #3D3B8E;
-  --color-turkey-feather-7: #E072A4;
-  --color-turkey-feather-8: #6883BA;
-  --color-turkey-body: #7B0D1E;
-  --color-turkey-body-2: #211103;
-  --color-turkey-eye-inner: #E6E6E6;
-  --color-turkey-eye-pupil: #211103;
-  --color-turkey-beak: #EBC154;
-  --color-turkey-arms: #211103;
-  --color-hat-brim: #7B0D1E;
-  --color-hat-top: #5C0A16;
-  --color-hat-top-highlight: #422410;
-  --color-hat-belt: #492614;
-  --color-hat-buckle: #FFEE55;
-}
-.theme-pastel {
-  --color-background: #B8B3E6;
-  --color-primary: black;
-  --color-turkey-feet: #E2F89C;
-  --color-turkey-feather-1: #8B85C1;
-  --color-turkey-feather-2: #D4CDF4;
-  --color-turkey-feather-3: #A26793;
-  --color-turkey-feather-4: #C19AB7;
-  --color-turkey-feather-5: #8B85C1;
-  --color-turkey-feather-6: #D4CDF4;
-  --color-turkey-feather-7: #A26793;
-  --color-turkey-feather-8: #C19AB7;
-  --color-turkey-body: #815E5B;
-  --color-turkey-body-2: #685155;
-  --color-turkey-eye-inner: #E6E6E6;
-  --color-turkey-eye-pupil: #685155;
-  --color-turkey-beak: #E2F89C;
-  --color-turkey-arms: #685155;
-  --color-hat-brim: #211208;
-  --color-hat-top: #311B0C;
-  --color-hat-top-highlight: #422410;
-  --color-hat-belt: #492614;
-  --color-hat-buckle: #FFEE55;
-}
-.theme-greyscale {
-  --color-background: #CCCCCC;
-  --color-primary: black;
-  --color-turkey-feet: #F5F5F5;
-  --color-turkey-feather-1: #FF0A2F;
-  --color-turkey-feather-2: #F50025;
-  --color-turkey-feather-3: #E00022;
-  --color-turkey-feather-4: #CC001F;
-  --color-turkey-feather-5: #B8001C;
-  --color-turkey-feather-6: #A30018;
-  --color-turkey-feather-7: #8F0015;
-  --color-turkey-feather-8: #7A0012;
-  --color-turkey-body: #525252;
-  --color-turkey-body-2: #3D3D3D;
-  --color-turkey-eye-inner: #E0E0E0;
-  --color-turkey-eye-pupil: #3D3D3D;
-  --color-turkey-beak: #F5F5F5;
-  --color-turkey-arms: #3D3D3D;
-  --color-hat-brim: #292929;
-  --color-hat-top: #333333;
-  --color-hat-top-highlight: #474747;
-  --color-hat-belt: #333333;
-  --color-hat-buckle: #F5F5F5;
-}
+
+@import './themes/theme-default.css';
+@import './themes/theme-dark.css';
+@import './themes/theme-colorful.css';
+@import './themes/theme-pastel.css';
+@import './themes/theme-greyscale.css';
+
 body {
   margin: 0;
   padding: 0;
@@ -265,8 +152,6 @@ button:active {
     opacity: .5;
     transform: translate(0, -10px);
   }
-}
-#feathers path {
 }
 #feathers path.animated {
   transform-origin: center;
